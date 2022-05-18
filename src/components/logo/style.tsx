@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100px;
+    width: 70px;
     height: 100px;
 `;
 
@@ -13,7 +13,7 @@ export const Rectangle = styled.div`
     position: relative;
     transform: rotate(-55deg);
     top: 49px;
-    left: 22px;
+    left: -8px;
 `;
 
 export const Rectangle_2 = styled.div`
@@ -23,16 +23,27 @@ export const Rectangle_2 = styled.div`
     background: #f8f8f8;
     position: relative;
     top: 57px;
-    left: 30px;
+    margin: auto;
 `;
 
 export const Rectangle_3 = styled.div`
-    width: 65px;
+    width: 55px;
     height: 6px;
     border-radius: 200px;
     background: #f8f8f8;
     position: relative;
     transform: rotate(55deg);
-    top: 26px;
-    left: 48px;
+    top: 30px;
+    left: 25px;
+`;
+
+export const Rectangle_4 = styled.div`
+    width: 20px;
+    height: 6px;
+    border-radius: 200px;
+    background: #f8f8f8;
+    position: relative;
+    transform: rotate(55deg);
+    top: 23px;
+    left: 16px;
 `;

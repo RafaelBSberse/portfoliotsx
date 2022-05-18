@@ -1,12 +1,23 @@
 import { createGlobalStyle } from "styled-components";
-import img from '../images/background-image.jpg'
+import fundo from '../images/fundo.jpg'
 
 export const GlobalStyle = createGlobalStyle`
-    body {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+    * {
         margin: 0;
-        width: 100vw;
-        height: 100vh;
-        background-image: url(${img});
-        background-size: 100vw;
-    }
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        font-family: 'Open Sans', sans-serif;
+    };
+
+    body {
+        height: 200vh;
+        background-image: url(${fundo});
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-attachment: fixed;
+    };
 `
